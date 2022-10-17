@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-image: linear-gradient(to right, red , yellow);
+  padding: 10rem 2rem;
+}
+
+
+.testimonial-img {
+  width: 30%;
+}
+.testimonial-name {
+  font-size: 1.3rem;
+  text-align: center;
+}
+.testimonial-designation {
+  font-size: 1.2rem;
+  text-align: center;
+}
+img.qoutes-left {
+  width: 5%;
+  float: left;
+  position: relative;
+  right: 10px;
+}
+span.text {
+  position: relative;
+  top: 60px;
+}
+img.qoutes-right {
+  width: 5%;
+  float: right;
+  position: relative;
+  top: -20px;
+  right: 25px;
+}
+
+
+
+h2 {
+  text-align: center;
+  padding: 3rem;
+  font-size: 3.5rem;
+  margin-bottom: 3rem;
+}
+
+/* Slider */
+.slick-slide {
+  margin: 0px 10px;
+}
+
+.slide img {
+  width: 100%;
+}
+
+.slide2 img {
+  width: 10%;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+p.text {
+  text-align: center;
+  padding: 36px;
+  text-shadow: 1px 1px #a900ff;
+  color: white;
+
+}
+
+section.logos2.slider {
+  background-color: whitesmoke;
+  border-radius: 15px;
+}
+
+.logos {
+  position: relative;
+}
+
+button.slick-prev.pull-left.slick-arrow {
+  float: left;
+  position: relative;
+  top: 40px;
+  background: none;
+  color: white;
+  border: none;
+  font-size: 2rem;
+}
+
+button.slick-next.pull-right.slick-arrow {
+  float: right;
+  position: relative;
+  bottom: 140px;
+  left: 30px;
+  background: none;
+  color: white;
+  border: none;
+  font-size: 2rem;
+}
+ul.slick-dots {
+  padding: 0px;
+  margin: 30px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+/* SECOND SLIDER */
+
+.headings {
+  font-size: 3rem;
+  font-family: sans-serif;
+  font-weight: bold;
+
+}
